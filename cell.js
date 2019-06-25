@@ -28,8 +28,8 @@ class cell
     {
       fill(55, 58, 93, 100);
     }
-    // noStroke();
-    stroke(1);
+    noStroke();
+//     stroke(1);
     this.xStart = this.x * this.cellWidth;
     this.yStart = this.y * this.cellHeight;
     this.xEnd = this.xStart + this.cellWidth;
